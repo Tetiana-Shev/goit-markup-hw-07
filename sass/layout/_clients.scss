@@ -1,0 +1,24 @@
+.clients-set {
+    display: flex;
+    justify-content: center;}
+
+.clients-set__item {
+    margin-right: 30px;
+    &:last-child {margin-right: 0;}
+}
+
+.clients-set__link {
+    display: block;
+    padding: 16px 32px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid $color-network;
+    border-radius: 4px;
+    fill: $color-network;
+    transition: fill 250ms $timing-function,
+    border-color 250ms $timing-function;
+    &:hover {
+        fill: $color-accent;
+        border-color: $color-accent;}
+}
+

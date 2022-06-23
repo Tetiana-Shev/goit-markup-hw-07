@@ -1,0 +1,35 @@
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right, 
+        $color-gradient, 
+        $color-gradient),
+        url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+.hero {
+    display: block;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: $bgc-hero;}
+
+.hero-thumb {
+    width: 696px;
+    margin: 0 auto;
+    text-align: center;}
+
+.hero-thumb__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: $color-white;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;}

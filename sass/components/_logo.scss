@@ -1,0 +1,14 @@
+.logo {
+    font-family: Raleway, sans-serif;
+    @include font(26px, null, 1.19, 0.03em);
+    font-weight: 700;
+    text-decoration: none;
+    color: $color-accent;}
+
+.header__logo {
+    color: $color-black;}
+
+.logo-set {margin-bottom: 20px;}
+
+.footer__logo {
+    color: $color-white;}

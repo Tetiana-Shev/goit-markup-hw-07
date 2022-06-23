@@ -1,0 +1,37 @@
+.header__contact {
+    display: flex;
+    margin-left: auto;
+    @include font(null, 500, 1.14, 0.02em);
+    fill: $color-primary;
+    &__item {margin-right: 50px;}
+    &__item:last-child {margin-right: 0;}
+}
+
+.contact__link {
+    color: $color-primary;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms $timing-function,
+    fill 250ms $timing-function;
+    &:hover,
+    &:focus {
+        color: $color-accent;
+        fill: $color-accent;}
+}
+
+.contact__icon {
+    margin-right: 10px;
+    &:not(:last-child){margin-bottom: 9px;}
+}
+
+.footer__contact__link {
+    font-style: normal;
+    color: $color-footer-contact;
+    text-decoration: none;
+    transition: color 250ms $timing-function;
+    &--white {
+        text-decoration: none;
+        font-style: normal;
+        color: $color-white;}
+}

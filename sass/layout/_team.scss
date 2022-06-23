@@ -1,0 +1,30 @@
+.team {
+    background-color: $bgc-section;} 
+
+.team-set {display: flex;
+    &__item {
+        margin-right: 30px;
+        background: $bgc-body;
+        box-shadow: $box-shadow;
+        border-radius: 0px 0px 4px 4px;}
+    &__item:last-child {margin-right: 0;}
+}
+
+.team-card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: $box-shadow;
+    &__name {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: $color-secondary;
+        @include font(16px, 500, 1.19, 0.03em);
+        text-align: center;}
+    &__profession {
+        text-align: center;
+        @include font(16px, null, 1.19, 0.03em);
+        margin-bottom: 16px;}
+}
+
+
+

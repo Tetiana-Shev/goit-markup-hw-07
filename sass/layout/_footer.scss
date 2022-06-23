@@ -1,0 +1,67 @@
+.footer {
+    background-color: $bgc-footer;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &__blocks {
+        display: flex;}
+}
+
+.social {
+    margin-left: 70px;
+    padding-top: 12px;
+    &__title {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+        @include font(null, 700, 1.14, 0.03em);
+        text-transform: uppercase;
+        color: $color-white;}
+}
+
+.subscribe {
+    margin-left: 93px;
+    padding-top: 12px;
+    &__title {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+        @include font(null, 700, 1.14, 0.03em);
+        text-transform: uppercase;
+        color: $color-white;}
+}
+
+.subscription {
+    display: flex;
+    &__label--text {
+        position: absolute;
+        padding-top: 15px;
+        padding-left: 16px;
+        @include font(16px, 400, 1.25, 0.03em);
+        display: flex;
+        align-items: center;
+        color: $color-footer-contact;}
+    &__input {
+        width: 358px;
+        height: 50px;
+        padding-left: 79px;
+        margin-right: 12px;
+        outline: none;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background-color: transparent;
+        color: $color-footer-contact;
+        font-style: 16px;
+        transition: border-color 250ms $timing-function;
+        &:hover,
+        &:focus-within {
+            border-color: $color-accent;}}
+    &__button {
+        display: flex;
+        justify-content: center;
+        padding: 10px ;}
+    &__icon {
+        display: flex;
+        content: '';
+        margin-left: 10px;}
+}
