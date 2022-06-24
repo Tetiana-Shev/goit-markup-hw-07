@@ -15,10 +15,7 @@
     border: 1px solid $color-network;
     border-radius: 4px;
     fill: $color-network;
-    transition: fill 250ms $timing-function,
-    border-color 250ms $timing-function;
+    transition: fill 250ms $timing-function, border-color 250ms $timing-function;
     &:hover {
         fill: $color-accent;
-        border-color: $color-accent;}
-}
-
+        border-color: $color-accent;}}

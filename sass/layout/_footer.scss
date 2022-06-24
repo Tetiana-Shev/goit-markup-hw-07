@@ -3,8 +3,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     &__blocks {
-        display: flex;}
-}
+        display: flex;}}
 
 .social {
     margin-left: 70px;
@@ -15,8 +14,7 @@
         margin-bottom: 20px;
         @include font(null, 700, 1.14, 0.03em);
         text-transform: uppercase;
-        color: $color-white;}
-}
+        color: $color-white;}}
 
 .subscribe {
     margin-left: 93px;
@@ -27,8 +25,7 @@
         margin-bottom: 20px;
         @include font(null, 700, 1.14, 0.03em);
         text-transform: uppercase;
-        color: $color-white;}
-}
+        color: $color-white;}}
 
 .subscription {
     display: flex;

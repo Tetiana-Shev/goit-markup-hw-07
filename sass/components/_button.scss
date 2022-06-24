@@ -8,16 +8,12 @@
     background-color: $color-accent;
     text-align: center;
     font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
+    @include font(16px, 700, 1.88, 0.06em);
     cursor: pointer;
     transition: background-color 250ms $timing-function;
     &:hover,
     &:focus {
-        background-color: $color-accent;}
-}
+        background-color: $color-accent-hover;}}
 
 .send {
     display: flex;

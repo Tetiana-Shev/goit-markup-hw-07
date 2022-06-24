@@ -12,8 +12,7 @@
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
-    transition: color 250ms $timing-function,
-    fill 250ms $timing-function;
+    transition: color 250ms $timing-function, fill 250ms $timing-function;
     &:hover,
     &:focus {
         color: $color-accent;
