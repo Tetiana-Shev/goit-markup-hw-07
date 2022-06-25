@@ -8,7 +8,8 @@
         box-shadow: $box-shadow;
         border-radius: 0px 0px 4px 4px;}
     &__item:last-child {margin-right: 0;}
-}
+    &__img {
+        @extend %img;}}
 
 .team-card {
     padding-top: 30px;

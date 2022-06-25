@@ -24,6 +24,9 @@
     position: relative;
     overflow: hidden;}
 
+.portfolio__pic {
+    @extend %img;}
+
 .portfolio-overlay {
     position: absolute;
     top: 0;
